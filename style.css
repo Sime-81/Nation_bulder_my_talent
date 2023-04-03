@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "taf sl sl skf"
+        "taf lg lg skf"
+        "tae lg lg ske"
+        "tae lg lg ske";
+
+}
+
